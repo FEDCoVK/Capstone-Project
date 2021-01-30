@@ -15,7 +15,7 @@ while True:
     keyboard = np.zeros((440, 500, 3), np.uint8)  # display white screen untill time 1sec completed
     keyboard[:] = 255        # 255 is white color
     cv2.imshow("Keyboard", keyboard)
-    cv2.waitKey(Time)
+    cv2.waitKey(Time)        # wait for time=1000 to perform further event.
 
     if cv2.waitKey(1) == 27:    # blinking stop when escape key press
         break
