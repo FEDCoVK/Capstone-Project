@@ -9,11 +9,11 @@ and display it on User's Computer screen. For Example: left eye close blinking s
   
 ### Prerequisites
  You need followings things to run this:
-1.Python version 3.6.7
-2.PYCHARM IDE
-  -pip version 21.0.1
-  -numpy version 1.20.1
-  -opencv-python  
+1. Python version 3.6.7
+2. PYCHARM IDE
+  - pip version 21.0.1
+  - numpy version 1.20.1
+  - opencv-python  
 
 ### Installation of Packages
 ```
