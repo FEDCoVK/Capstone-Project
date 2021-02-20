@@ -26,13 +26,13 @@ $ pip install numpy
 2. Dataset creation (images remaining)
 
 ## Future Work
-1. Following modules wil be added in project.
-2. Dataset Creation and Make trained Model.
-3. User successfully give expression.
-4. System successfully detect the face and epsression of user.
-5. User can give Different kind of expression to Select keyboard key.
-6. System convert the user's expression into specific action which is defined against key successfully.
-7. System Trainning
+Following modules wil be added in project.
+1. Dataset Creation and Make trained Model.
+2. User successfully give expression.
+3. System successfully detect the face and epsression of user.
+4. User can give Different kind of expression to Select keyboard key.
+5. System convert the user's expression into specific action which is defined against key successfully.
+6. System Trainning
 
 ## Versioning
 1.0.0
