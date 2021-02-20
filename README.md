@@ -43,7 +43,7 @@ $ pip install numpy
 - **Mubeen Aslam**
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE.md] file for details
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE) file for details
 
 ## Acknowledgments
 CS & IT department, University of Sargodha
