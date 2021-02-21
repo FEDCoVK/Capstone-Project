@@ -29,7 +29,7 @@ $ pip install numpy
 Following modules wil be added in project.
 1. Dataset Creation and Make trained Model.
 2. User successfully give expression.
-3. System successfully detect the face and epsression of user.
+3. System successfully detect the face and expsression of user.
 4. User can give Different kind of expression to Select keyboard key.
 5. System convert the user's expression into specific action which is defined against key successfully.
 6. System Trainning
