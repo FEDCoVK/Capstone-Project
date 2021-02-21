@@ -20,7 +20,8 @@ def KeyAlphabet(x_axis,y_axis,x_blink,y_blink):
         x = x + 30
         for j in range(0, 13):
             key(keyboard, x, y, w, h)
-            x = x + 65
+        blink(keyboard, choice_x=x_axis, choice_y=y_axis,w=x_blink,h=y_blink) 
+        x = x + 65
             Counter = Counter + 1
         x = 0
         y = y + 75
@@ -92,7 +93,7 @@ x_axis = 30
 y_axis = 10
 w = 60
 h = 70
-
+delay=0
 while True:
 
     KeyAlphabet(x_axis, y_axis, w, h)
@@ -110,6 +111,37 @@ while True:
         KeyAlphabet(x_axis, y_axis, w + 10, h)
     if x_axis == 660 and y_axis == 235:
         KeyAlphabet(x_axis, y_axis, w + 10, h)
+   
+    if delay > 300:
+            if x_axis == 550 and y_axis == 85:
+                x_axis = 615
+            if x_axis == 550 and y_axis == 160:
+                x_axis = 615
+            if x_axis == 30 and y_axis == 235:
+                x_axis = 250
+            if x_axis == 315 and y_axis == 235:
+                x_axis = 445
+            if x_axis == 510 and y_axis == 235:
+                x_axis = 520
+            if x_axis == 585 and y_axis == 235:
+                x_axis = 595
+            if x_axis == 660 and y_axis == 235:
+                x_axis = 680
+            if x_axis == 745 and y_axis == 235:
+                x_axis = -35
+                y_axis = 10
+
+            x_axis += 65
+            if x_axis > 850:
+                x_axis = 30
+                y_axis += 75
+            if y_axis == 300:
+                x_axis=30
+                y_axis =0
+            delay =0
+    else:
+            delay += 1
+
 
 
     if cv2.waitKey(1) == 27:
