@@ -4,6 +4,9 @@ import cv2
 def key(keyboard,x,y,w,h):
     cv2.rectangle(keyboard, (x, y), (x + w, y + h), (82, 69, 69), 1)
 
+def blink(keyboard,choice_x,choice_y,w,h):
+    cv2.rectangle(keyboard, (choice_x, choice_y), (choice_x + w, choice_y + h), (100, 100, 100), -1)
+
 def KeyAlphabet(x_axis,y_axis,x_blink,y_blink):
     x = 0
     y = 0
